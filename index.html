@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Misriya's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <div class="left">Portfolio</div>
+            <div class="right">
+                <ul id="sidemenu">
+                    <li><a href="#first-sec">Home</a></li>
+                    <li><a href="#second-sec">About me</a></li>
+                    <li><a href="#third-sec">Skills</a></li>
+                    <li><a href="#fourth-sec">Projects</a></li>
+                    <li><a href="#fifth-sec">Contact me</a></li>
+                
+                    <div class="cross-icon" onclick="closemenu()">
+                        <div class="line line1"></div>
+                        <div class="line line2"></div>
+                    </div>
+                </ul>
+                <div class="menu-icon" onclick="openmenu()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="first-sec">
+            <div class="box1">
+                <div class="name" style="font-family: Garamond ;font-size: 2.3rem;">Hi, My name is</div>
+                <span class="diff" >Ayishathul misriya  k s</span>
+                <div style="font-family: Garamond ;font-size: 2.3rem;">and I am a passionate</div>
+                <div class="dif">Frontend Developer.</div>
+            </div>
+            <div class="box2">
+                <img src="images/Profile.png" alt="" width="38%">
+            </div>
+        </section>
+
+
+        <section id="second-sec">
+            <h1>About me</h1>
+            <div class="box3">I am computer science and engineering student at P A College of engineering.I consider myself a responsible and orderly person. As I look forward to gaining my first work experience, I want to emphasize my proficiency in web design.I'm eager to use my skills to work with an innovative team and make a difference in the world of software development.</div>
+        </section>
+        
+        <section id="third-sec">
+           <h1>skills</h1>
+           <div class="box4">
+                <div class="box5">
+                    <div>C</div><br><div>Python</div><br><div>Java</div>
+                </div>
+                <div class="box6">
+                    <div>Html</div><br><div>Css</div><br><div>Javascript</div>
+                </div>
+            </div>  
+            <div class="box62">   
+                <div class="box7">
+                    <div>Git</div><br><div>Github</div><br><div>React js</div>
+                </div>
+                <div class="box8">
+                    <div>Communication</div><br><div>Leadership</div><br><div>Team work</div>
+                </div>
+            </div> 
+        </section>
+
+        <section id="fourth-sec">
+            <h1>Projects</h1>
+            <div class="box9"> 
+                    <div class="box91">
+                        <div><strong>Students Admission</strong><br>
+                        Created a React.js based "Students Admission" project for storing student data.</div>
+                        <img src="images/admission.png" alt="" width="290px" height="200px">
+                    </div>
+                    <div class="box92">
+                        <div><strong>Online Bank Management System</strong><br>
+                        Through this online platform we can manage our bank accounts, transactions and finances easily. </div>
+                        <img src="images/bank1.jpg" alt="img" width="290px" height="200px">
+                    </div>
+            </div>        
+            <div class="box911">
+                        <div class="box93">
+                            <div><strong>Flip Flop</strong><br>
+                            It is a memory game integrated with user sign-in activity.</div>
+                            <img src="images/flip-card.jpg" alt="" width="290px" height="200px">
+                        </div>
+                        <div class="box94">
+                            <div><strong>Detection Of Soil Moisture</strong><br>
+                            This system accurately measures and monitors the level of moisture in the soil.</div>
+                            <img src="images/maxresdefault.jpg" alt="" width="290px" height="200px">
+                        </div>
+            </div>        
+            
+        </section>
+
+        <section id="fifth-sec">
+            <h1>Contact me</h1>
+            <div class="box10">Email : mayishathul@gmail.com</div>
+            <div class="box10">Phone : +91 9740358865</div>
+            <div class="box10 box12">Github : <a href= " https://github.com/misriya123"> https://github.com/misriya123</a></div>
+            <div class="box10 box12">Linkedin: <a href= " https://www.linkedin.com/in/ayishathul-misriya"> https://www.linkedin.com/in/ayishathul-misriya</a></div>
+            <div class="box10 box11"><a href="images/Resume.pdf" download > Download Resume</a></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div>copyright &copy; Misriya </div>
+    </footer>
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right="0"
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px"
+        }
+    </script>
+
+</body>
+</html>
